@@ -29,15 +29,15 @@ nest_asyncio.apply()
 ```
 ```
 urls = [
-    "https://openreview.net/pdf?id=l9ICUE43Iq",
-    "https://openreview.net/pdf?id=6eMIzKFOpJ",
-    "https://openreview.net/pdf?id=2togYtQ7Ab",
+    "https://openreview.net/pdf?id=u31BLudWQr",
+    "https://openreview.net/pdf?id=H1lnZlHYDS",
+    "https://openreview.net/pdf?id=gx7TEqAogg8",
 ]
 
 papers = [
-    "39_CONVERSATIONAL_MEDICAL_AI_R.pdf",
-    "40_Faithfulness_Hallucination_.pdf",
-    "421_Advancing_Healthcare_in_Lo.pdf",
+    "1_Virtual_Personalized_Fashion.pdf",
+    "2151_provable_convergence_and_globa.pdf",
+    "99_challenging_america_digitized_.pdf",
 ]
 ```
 ```
@@ -74,12 +74,13 @@ agent = AgentRunner(agent_worker)
 ```
 ```
 response = agent.query(
-    "Explain the main approach and method used in the paper 'Faithfulness Hallucination Detection in Healthcare AI' to detect hallucinations in medical AI outputs."
+    "Tell me about fashion from the paper 1_Virtual_Personalized_Fashion, "
+    "and then tell me about different styles"
 )
 ```
 ### OUTPUT:
 
-<img width="1057" height="425" alt="Screenshot 2025-10-24 at 11 13 34 AM" src="https://github.com/user-attachments/assets/06027ead-3e99-4dec-aa35-db5a9f38db1d" />
+<img width="1319" height="699" alt="image" src="https://github.com/user-attachments/assets/a493e561-619f-42b6-9911-ae9996a6c291" />
 
 ### RESULT:
 
